@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.kjango" name="Kjango" version="1.0.0" provider-name="TeamOns">
+	<requires>
+		<import addon="script.module.django" version="4.2.14"/>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="resources/lib"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">The web framework for perfectionists with deadlines.</summary>
+		<description lang="en_GB">
+			Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+			Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on
+			writing your app without needing to reinvent the wheel. It’s free and open source.
+		</description>
+		<platform>all</platform>
+		<license>MIT License</license>
+		<source>https://github.com/TeamOns/script.module.kjango</source>
+	</extension>
+</addon>
